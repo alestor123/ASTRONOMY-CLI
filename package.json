@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "This is a simple code for getting astronomy pics from nasa apod api",
   "main": "App.js",
+  "bin": {
+    "astronomy-cli": "cli.js"
+  },
   "dependencies": {
     "axios": "^0.21.1"
   },
